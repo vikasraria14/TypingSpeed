@@ -4,7 +4,7 @@ import "./App.css";
 class App extends React.Component {
     render() {
         return (
-        <div className="app">
+        <div className="apps">
             {/* Nav Section */}
             <h1>This is my Navigation bar</h1>
             {/* Landing Page */}
