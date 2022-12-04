@@ -15,7 +15,7 @@ const Nav = () => {
                     className='nav-linkedin-link'
                     // href='https://github.com/NitinPasoriah'
                     href='https://www.linkedin.com/in/nitin-pasoriah/'
-                    rel=''
+                    rel="noreferrer"
                 >
                     LinkedIn
                 </a>

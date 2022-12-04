@@ -5,10 +5,10 @@ const Footer = () => {
     return(
         <div className="footer-container">
             <a 
-                href=''
+                href='https://www.google.com'
                 className='footer-link'
                 target='_blank'
-                rel=''
+                rel="noreferrer"
             >
                 Watch
             </a>

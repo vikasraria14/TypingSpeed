@@ -1,27 +1,13 @@
-import React from "react";
-import ChallengeSection from "../ChallengeSection/ChallengeSection";
-import Footer from "../Footer/Footer";
-import Landing from "../Landing/Landing";
-import Nav from "../Nav/Nav";
-import "./App.css";
-
-class App extends React.Component {
-    render() {
-        return (
-        <div className="app">
-            {/* Nav Section */}
-            <Nav />
+import { useState } from "react";
+const App=()=>{
+    const [num,changeNum]=useState(9)
+    const x=[1,2,3,5]
+    x.map(x1=>console.log(x1))
+    return(
         
-            {/* Landing Page */}
-            <Landing />
-
-            {/* Challenge Section */}
-            <ChallengeSection />
-
-            {/* Footer */}
-            <Footer />
-        </div>
-        );
-    }
-}
-export default App;
+      <div>
+      
+      </div>
+    )
+  }
+  export default App;

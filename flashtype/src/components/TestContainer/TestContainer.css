@@ -1,10 +1,66 @@
 .test-container {
     background-color: #fff;
-    margin: 64px 0;
+    
     width: 80%;
     margin-left: 10%;
-    min-height: 750px;
+    height: 75%;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.26);
+}
+.try-again-cont{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.stat1{
+    width: 100px;
+    border: 1px solid black;
+    height: 60px;
+}
+
+.text-content{
+    display: flex;
+    background-color: grey;
+    width: 90%;
+    margin: 0 5%;
+    height: 75%;
+}
+.paragraph-area{
+    width: 40%;
+    margin: 0% 5%;
+    border: 1px solid black;
+}
+.input-area{
+    width: 40%;
+    margin: 0 2% 0 5%;
+    border: 1px solid black;
+}
+textarea{
+    height: 300px;
+    width: 90%;
+    margin: 5%;
+}
+
+.number{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.time{
+    text-align: center;
 }

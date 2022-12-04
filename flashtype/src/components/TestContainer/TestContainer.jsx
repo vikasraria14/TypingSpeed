@@ -8,8 +8,22 @@ const TestContainer = ({
 }) => {
     return (
         <div className="test-container">
-            <div className="try-again-cont">
-                <h1>This is the try again</h1>
+            <div className="stats">
+               <div className='stat1'>Words <br/><span className='number'>0</span></div>
+               <div className='stat1'>Characters <br/> <span className='number'>0</span> </div>
+               <div className='stat1'>Speed <br/> <span className='number'>0</span> </div>
+            </div>
+            <div className='time'>
+                60 Sec <br/>
+                Start typing to start
+            </div>
+            <div className='text-content'>
+                <div className='paragraph-area'>
+                    paragraph
+                </div>
+                <div className='input-area'>
+                    <textarea></textarea>
+                </div>
             </div>
         </div>
     );
